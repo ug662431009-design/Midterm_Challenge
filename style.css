@@ -1,0 +1,20 @@
+body{margin:0;font-family:Arial,sans-serif;background:#f7fafc;color:#1a202c;}
+.navbar{display:flex;justify-content:center;align-items:center;padding:12px;background:#fff;position:sticky;top:0;border-bottom:1px solid #ccc;}
+.nav-inner{width:100%;max-width:1100px;display:flex;align-items:center;gap:16px;}
+.nav-links{margin-left:auto;display:flex;gap:16px;}
+.nav-links a{text-decoration:none;color:#1a202c;padding:6px 10px;border-radius:4px;}
+.nav-links a:hover{background:#eef6ff;}
+.tabbar,.hamburger{display:none;}
+.mindset{display:flex;align-items:center;justify-content:center;height:50vh;background:linear-gradient(#fff,#f0f7ff);text-align:center;}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;padding:20px;}
+.card{background:#fff;padding:12px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
+.card img{width:100%;height:150px;object-fit:cover;border-radius:6px;}
+.contact-section{padding:20px;max-width:800px;margin:auto;background:#fff;border-radius:8px;}
+.contact-section form{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.contact-section label{display:flex;flex-direction:column;}
+.contact-section input,.contact-section textarea{padding:8px;border:1px solid #ccc;border-radius:4px;}
+.contact-section button{grid-column:1/-1;padding:10px;background:#2b6cb0;color:#fff;border:none;border-radius:6px;}
+.site-footer{text-align:center;padding:12px;background:#fff;border-top:1px solid #ccc;margin-top:24px;}
+#goTop{position:fixed;bottom:18px;right:18px;padding:10px;border:none;background:#2b6cb0;color:#fff;border-radius:50%;display:none;}
+@media(max-width:1023px){.navbar{display:none}.tabbar{display:flex;justify-content:space-around;padding:8px;background:#fff;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}}
+@media(max-width:767px){.tabbar{display:none}.hamburger{display:block;position:relative;}}
